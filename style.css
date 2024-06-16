@@ -1,0 +1,33 @@
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 50%;
+}
+
+.input-group {
+    display: grid;
+    grid-template-columns: auto 1fr auto; 
+    align-items: center;
+    gap: 10px; 
+}
+
+.btn {
+    font-size: 1.5em;
+    padding: 10px 20px; 
+}
+
+.form-control {
+    width: 100%; 
+    font-size: 1.5em; 
+}
+
+.list-group {
+    list-style-type: none;
+    padding-left: 0; 
+}
